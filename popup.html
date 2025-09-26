@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora CIDR Avançada</title>
+    <meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+    <h2>Calculadora de Máscara de Rede</h2>
+
+    <label for="ipBaseInput">Informe um IP Base (opcional):</label>
+    <input type="text" id="ipBaseInput" placeholder="Ex: 192.168.1.0">
+    <div id="ipError" class="error-message"></div>
+
+    <label for="cidrSelect">Selecione o CIDR:</label>
+    <select id="cidrSelect"></select>
+
+    <button id="calcularBtn">Calcular Detalhes</button>
+
+    <div id="resultadoContainer">
+        <div class="resultado-item"><strong>Máscara de Sub-rede:</strong> <span id="mascaraSubrede"></span></div>
+        <div class="resultado-item"><strong>Máscara Coringa:</strong> <span id="mascaraCoringa"></span></div>
+        <div class="resultado-item"><strong>Nº de Endereços:</strong> <span id="numEnderecos"></span></div>
+        <div class="resultado-item"><strong>IP de Rede:</strong> <span id="ipRede"></span></div>
+        <div class="resultado-item"><strong>IP de Broadcast:</strong> <span id="ipBroadcast"></span></div>
+        <div class="resultado-item"><strong>Endereços IP Usáveis:</strong> <span id="ipsUsaveis"></span></div>
+    </div>
+
+    <script src="scripts/popup.js"></script>
+</body>
+</html>
