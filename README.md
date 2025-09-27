@@ -55,7 +55,7 @@ edge://extensions/
 
 ## 🖼️ Capturas de Tela
 
-> *(adicione aqui prints mostrando a calculadora em ação com um exemplo de IP e CIDR)*  
+<img width="358" height="592" alt="image" src="https://github.com/user-attachments/assets/f10135eb-e843-43b5-b141-204a1f5ea5d6" />
 
 ## 🔧 Tecnologias
 
